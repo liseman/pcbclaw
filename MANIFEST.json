@@ -1,0 +1,21 @@
+{
+  ".gitignore": "22667795ec35e0e0d723c37f380e91dfb0bf362522cd856ecb5c9f340f98ac2d",
+  "CONTRIBUTING.md": "db62c762b3faaa5571a871b11314f1c33482139c3b18abafc1b6455baebabb99",
+  "LICENSE": "a900a0d6bf09b6ac2f74c8377895748c5a440148d0adf2b201922188721ff57b",
+  "README.md": "4ba8f6f79b91a4c0d7ea193ef8d716c8631494f1b7e461a7c62c285af0f3ee02",
+  "RELEASE.md": "dd12971185844d14fce35a1963cfc6e83d456e474fba173e4d2a942ba6a838f8",
+  "SKILL.md": "be452712ce397592cc6d73083cac6b953e767d0c899c3904342205e57418fc0d",
+  "VALIDATION.txt": "52018414690694dd2d7c674e8ba840ab58d424322eb47557bd8fd53158368055",
+  "assets/defaults.json": "98b992571e8a08d9f3527ccf334e55fc2c8097dc43babe7c644f592fd0c1989f",
+  "references/CONTRIBUTING.md": "db62c762b3faaa5571a871b11314f1c33482139c3b18abafc1b6455baebabb99",
+  "references/LICENSE": "a900a0d6bf09b6ac2f74c8377895748c5a440148d0adf2b201922188721ff57b",
+  "references/README.md": "4ba8f6f79b91a4c0d7ea193ef8d716c8631494f1b7e461a7c62c285af0f3ee02",
+  "references/RELEASE.md": "dd12971185844d14fce35a1963cfc6e83d456e474fba173e4d2a942ba6a838f8",
+  "references/costs.md": "d7aceadaa1aaf8cbd0cc28a157db2a8442deeedcf412145037804ccaa9815366",
+  "references/design.md": "149593c7fbec173694db3ae4903d68476a769a59c8114cc73d9795b4986f7c00",
+  "references/environment.md": "5815805be2409a95f3153418dd4a1c270f524e206f0f7470cbf3baa72a073198",
+  "references/release.md": "8033b2f3a066b66c373bbd793e312e4d2299ebbf61fefde0cfade2d2b4cd4fbb",
+  "references/validation.md": "d8ca41427b7f3f0b39c38361083a079bb368455c5cccfa086fbceac0d7e8c27d",
+  "scripts/pcb_helpers.py": "b795daecf9b22cda1ac7edcd1fc4db4be9cc0cdc0f6c3d3732fd6dc211a0d45c",
+  "scripts/test_helpers.py": "a77a351e21a76b283cb4b2d6536456a61ab2a24a0eb9560ba1d1eea0e8e34198"
+}

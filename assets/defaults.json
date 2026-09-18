@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "workspace": "~/pcb-projects",
+  "standards": "~/pcb-projects/standards/JLCPCB.md",
+  "template": "~/pcb-projects/templates/jlcpcb-2layer",
+  "objective": "Practical inexpensive quickly sourceable board without unusual manufacturing",
+  "fabrication": {
+    "vendor": "JLCPCB",
+    "material": "FR-4",
+    "layers": 2,
+    "thickness_mm": 1.6,
+    "copper_oz": 1,
+    "soldermask": "green",
+    "surface_finish": "least-expensive technically suitable currently offered",
+    "options": "ordinary commercial",
+    "blind_buried_vias": false,
+    "via_in_pad": false,
+    "controlled_impedance": "only when required"
+  },
+  "assembly": {
+    "enabled": true,
+    "service": "Economic PCBA",
+    "sourcing": "JLCPCB assembly catalog only",
+    "placement": "single-sided SMT where practical",
+    "packages": "common practical sizes",
+    "parts_preference": [
+      "technically suitable Basic",
+      "currently fee-waived promotional",
+      "technically suitable Extended"
+    ],
+    "allow_service_switch_without_approval": false
+  },
+  "rules_mm": {
+    "signal_trace": 0.25,
+    "clearance": 0.2,
+    "via_diameter": 0.6,
+    "via_drill": 0.3,
+    "min_trace": 0.15,
+    "min_clearance": 0.15,
+    "copper_edge": 0.5
+  },
+  "costs": {
+    "service": "Economic PCBA",
+    "levels": [
+      "MINIMUM",
+      "MIDDLE",
+      "MAXIMUM"
+    ],
+    "middle": "valid quantity nearest arithmetic midpoint; ties lower",
+    "quantity_unit": "assembled finished boards",
+    "shipping_tax_duties": "excluded unless determined",
+    "currency": "use verified source currency and declare it"
+  },
+  "permissions": {
+    "local_manufacturing_generation_after_validation": true,
+    "upload": false,
+    "publish": false,
+    "order": false,
+    "pay": false,
+    "reserve": false
+  }
+}
