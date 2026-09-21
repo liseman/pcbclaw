@@ -1,61 +1,7 @@
-$ openclaw skills install <release-directory>/pcb --as pcb
-Installing to <isolated-test>/workspace/skills/pcb…
-Installed pcb from path -> <isolated-test>/workspace/skills/pcb
-
-exit=0
-
-$ openclaw skills info pcb --json
-{
-  "name": "pcb",
-  "description": "pcb; pcb modify/resume/reprice/package: design and verify editable KiCad boards, JLCPCB manufacturing bundles, and Economic PCBA quantity pricing.",
-  "source": "openclaw-workspace",
-  "bundled": false,
-  "filePath": "<isolated-test>/workspace/skills/pcb/SKILL.md",
-  "baseDir": "<isolated-test>/workspace/skills/pcb",
-  "skillKey": "pcb",
-  "always": false,
-  "disabled": false,
-  "blockedByAllowlist": false,
-  "blockedByAgentFilter": false,
-  "eligible": true,
-  "platformIncompatible": false,
-  "modelVisible": true,
-  "userInvocable": true,
-  "commandVisible": true,
-  "requirements": {
-    "bins": [],
-    "anyBins": [],
-    "env": [],
-    "config": [],
-    "os": []
-  },
-  "missing": {
-    "bins": [],
-    "anyBins": [],
-    "env": [],
-    "config": [],
-    "os": []
-  },
-  "configChecks": [],
-  "install": []
-}
-
-exit=0
-
-$ python3 -B <isolated-test>/workspace/skills/pcb/scripts/test_helpers.py
-......
-----------------------------------------------------------------------
-Ran 6 tests in 0.008s
-
-OK
-
-exit=0
-
-$ python3 -B <installed-openclaw>/skills/skill-creator/scripts/quick_validate.py <isolated-test>/workspace/skills/pcb
-Skill is valid!
-
-exit=0
-
-PASS: isolated installation preserves every distributed source file.
-
-Not tested: fresh physical machine; live model design/interview; recipient download; supplier order.
+PCBClaw 0.2.0-beta.1 — 2026-09-21
+Native quick_validate: PASS
+Six offline helper test groups: PASS
+Installed Workshop/repository main and reference byte parity: PASS
+Explicit backticked resource links: PASS
+New supplier/execution/GitHub scenarios: static contract review only
+No live browser transactions, board design, physical tests or fresh-machine bootstrap performed for this release.

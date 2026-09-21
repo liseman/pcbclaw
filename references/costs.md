@@ -1,6 +1,6 @@
 # Economic PCBA cost policy
 
-Provide exactly three comparison categories: MINIMUM, MIDDLE, MAXIMUM. No fixed-quantity schedule and no separate Standard PCBA table. An explicit user change can override pricing service; never silently switch it. If Economic is ineligible, show its pricing unavailable rather than substituting another service.
+By default provide exactly three comparison categories: MINIMUM, MIDDLE, MAXIMUM. No fixed-quantity schedule and no separate Standard PCBA table. An explicit user change can override pricing service; never silently switch it. If Economic is ineligible, show its pricing unavailable rather than substituting another service.
 
 Determine actual currently valid Economic assembled finished-board quantities for the selected design/options from official JLCPCB information and the quotation interface when accessible and authorized. Record source/time and verified versus unknown. Do not assume every integer or infer valid endpoints from memory. Select smallest and largest permitted quantities; select the permitted quantity nearest (minimum+maximum)/2, ties lower. If fewer than three distinct values exist, retain three category rows but mark the unavailable distinct MIDDLE not applicable and explain. If range is unknown, keep category quantities unverified/unknown, not guesses. Stock shortage does not redefine the service maximum; flag fulfillment/cost limitations separately.
 
@@ -27,3 +27,8 @@ MAXIMUM
 Then state fabricated quantities if different, panel counts/boards-per-panel, stock limitations, shipping/tax/duties excluded unless actually determined, other exclusions, sources/assumptions, major cost drivers and safe reduction opportunities. Show known subtotal separately when total cannot be determined. Keep blocked/unknown rows visibly non-orderable.
 
 Save costs.csv and costs.md. The helper accepts an explicit verified valid-quantity list and source/time/currency plus keyed row costs; it only computes categories/arithmetic. It cannot discover eligibility, fetch prices or convert raw KiCad BOM/CPL schemas. Null costs remain unknown; a missing tier must never become a zero quote.
+
+## Explicit quantity/service requests and cost reductions
+A user request for a specific quantity or an approved Standard service takes precedence over the default report scope. Provide that requested quote directly; do not block it on an unknown Economic range or add unwanted Standard comparison tables. Keep the default Economic policy for generic completed reports without such overrides.
+
+For savings studies, use current BOM quantities, actual purchase tiers/spares and service-specific fees. Separate removable cost pools from net savings after replacement/support parts and changed assembly/fabrication. Verify current Basic/Extended fee behavior for the chosen service rather than assuming Basic eliminates Standard feeder costs. Show redesign/firmware, capability, voltage/environment and stock tradeoffs before consequential changes. After approval, update circuit, footprints, routing, firmware where in scope, reports, BOM/CPL and quote together; preserve the old release. Firmware ports require actual build/tests and are not proven hardware operation.

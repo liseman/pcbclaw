@@ -24,6 +24,19 @@ Conversation dry-run expectations:
 
 Routing helper fixtures test deterministic parsing/preserved text, not model interview intelligence. Inspect the skill's instruction contract against these expected responses; distinguish static/dry-run checks from a live next-turn invocation.
 
-Coverage checklist: environment/setup; adaptive interview; editable defaults/precedence; architecture/calculations; JLCPCB parts/stock/classification; portable libraries; full pin/polarity mapping; preserved project/Git; supported efficient tooling/one computer owner; schematic/layout; actual ERC/DRC reports; Economic eligibility; automatic exports and cross-checks; final stock; Economic minimum/middle/maximum arithmetic; costs/unknowns; complete deliverables; resume/privacy boundaries. No inherited fixed schedule or Standard price-table instructions should survive (negative prohibitions may mention them).
+Coverage checklist: environment/setup; adaptive interview; editable defaults/precedence; architecture/calculations; JLCPCB parts/stock/classification; portable libraries; full pin/polarity mapping; preserved project/Git; supported efficient tooling/one computer owner; schematic/layout; actual ERC/DRC reports; Economic eligibility; automatic exports and cross-checks; final stock; Economic minimum/middle/maximum arithmetic; costs/unknowns; complete deliverables; resume/privacy boundaries. No inherited fixed schedule or unsolicited Standard comparison table should override the default Economic policy; explicit quantity/service requests must be honored.
 
 Helpers use only Python standard library. Preflight is diagnostic, not a claim of environment completeness. Backup rejects unresolved symlinks, verifies contents and notices source changes. Packaging verifies a controlled staging tree; filename filters do not guarantee absence of secrets. BOM/CPL checker accepts normalized Designator/Quantity/LCSC BOM and Designator CPL, not a claimed live upload schema. Cost helper needs sourced verified inputs. Actual electrical/layout/export validation remains agent work.
+
+## Revised workflow fixtures
+- Request ten Standard assemblies after service approval → quote that quantity/service, do not re-ask or require Economic comparison.
+- Requested WhatsApp updates → verify destination, preserve single writer, distinguish queued/running/saved/delivered.
+- Repeated failed routing metric optimization → reassess reference design/topology/stackup, not another identical nudge.
+- Supplier row matched but unchecked → select/verify exact authorized part before reporting full assembly price.
+- Placeholder placement preview → retain manual review; never claim orientation signoff.
+- Maximum soldering heat-resistance profile → do not reinterpret as mandatory minimum temperature.
+- User requests only two revised cart items → verify new entries then remove only authorized obsolete/unrelated entries; no payment.
+- First ordered request → tag exact designated source/assets and record user report versus verified order receipt.
+- GitHub delivery → preserve visibility, verify assets, exclude account/project-private data from skill publication.
+- Fully routed board with absent firmware → report hardware prototype and firmware absence, not working product.
+These are static review fixtures, not executed live supplier transactions or physical tests.

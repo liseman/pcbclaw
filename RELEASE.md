@@ -1,11 +1,5 @@
-# 0.1.0-beta.1
+# 0.2.0-beta.1
 
-Initial public-distribution candidate. Prepared 2026-09-18.
+Workflow update, 2026-09-21. Adds evidence-based long-running execution, authorized supplier/cart review, reliable GitHub delivery and first-ordered snapshots; clarifies explicit pricing/service overrides, component-cost redesigns, honest firmware/readiness reporting and expansion-pin checks.
 
-Includes workflow, editable fallback defaults, design/environment/release/cost references, Python helpers, tests, installation instructions and MIT license. No private CAD files or bundled third-party datasheets.
-
-Validation scope: native structure and offline helper tests; isolated local installation/discovery and archive integrity are recorded in the release-side VALIDATION.txt. Those checks are not an independent physical-machine test. The original workstation's earlier KiCad results are not evidence that this skill can automatically design arbitrary boards.
-
-Not yet demonstrated for this release: fresh physical workstation bootstrap, live end-to-end model interview/design run, production order, and recipient-side attachment download. These remain beta limitations, not completed checks. A release ZIP is suitable for sharing and review; it is not certification of any resulting PCB.
-
-Published source: https://github.com/liseman/pcbclaw. No board files, credentials or orders are included.
+No new CAD engine or production certification is provided. Helpers remain offline diagnostics. Static contract checks, native structure validation and helper tests do not constitute a fresh-machine or live end-to-end design test. Physical electronics and supplier approval remain project-specific. Private project artifacts and account data are excluded.

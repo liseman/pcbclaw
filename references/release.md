@@ -84,3 +84,6 @@ Record status on each saved milestone and error. After timeout inspect saved fil
 
 ## Delivery verification
 A Markdown link to a local absolute path is not evidence of a remote download. Use only a supported attachment or download mechanism and verify the served bytes/hash when the tooling permits. Distinguish server-side verification from recipient confirmation; if downloads are unverified, say so and provide the existing path and a supported retrieval route. Never expose a public file server or publish private files merely to repair delivery.
+
+## Ordering confidence and stage-specific summaries
+Answer readiness directly using evidence: local checks completed; supplier acceptance pending/received; firmware readiness; physical validation pending/passed. Do not say simply "done" or "ready to order" when a known critical issue remains. User acceptance of prototype risk is not engineering sign-off. A local review bundle can be complete while production remains pending. Keep routine updates concise; use the full final report when delivering a design, not for every status question. Follow references/supplier.md for authorized cart/review work and references/github-delivery.md for publishing/delivery.

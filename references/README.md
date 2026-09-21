@@ -1,6 +1,6 @@
-# PCBClaw — OpenClaw PCB workflow
+# pcb — OpenClaw PCB workflow
 
-Version: 0.1.0-beta.1 • License: MIT
+Version: 0.2.0-beta.1 • License: MIT
 
 Turn conversational PCB requirements into editable KiCad projects, verified manufacturing candidates and JLCPCB Economic PCBA cost comparisons. This is an agent workflow with offline helpers, not an autonomous CAD engine or a shell command named pcb. Independent engineering review and prototype testing remain necessary.
 
@@ -14,15 +14,6 @@ Turn conversational PCB requirements into editable KiCad projects, verified manu
 - Browser/account access only for authorized supplier quote/preview work.
 
 Ubuntu is the initial administration target. Other operating systems require their own verified installation methods. No API key or provider configuration is included.
-
-## Install from GitHub
-
-```bash
-openclaw skills install git:liseman/pcbclaw@v0.1.0-beta.1 --as pcb
-openclaw skills info pcb
-```
-
-Start a new conversation and say `pcb`.
 
 ## Install from the release ZIP
 
